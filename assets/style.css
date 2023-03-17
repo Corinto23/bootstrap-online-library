@@ -1,0 +1,17 @@
+/* @include media-breakpoint-only(sm) { 
+    .navbar {
+        
+    }
+    
+ } */
+
+
+@media (max-width:1024px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        flex-wrap: wrap;
+    }
+}
